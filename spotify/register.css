@@ -1,0 +1,158 @@
+body {
+    background-color: #f1f1f1;
+}
+
+div {
+    display: block;
+}
+
+.reg1 {
+    background-color: blueviolet;
+    height: 610px;
+    background-image: url('https://expertphotography.b-cdn.net/wp-content/uploads/2020/05/Nature-Photographer-Marco-Grassi.png');
+}
+
+.reg2 {
+    background-color: brown;
+    height: 610px;
+    margin: 0px 150px 0px 150px;
+    /*display: flex;*/
+}
+
+.right {
+    background-color: gold;
+    height: 610px;
+    width: 50%;
+    display: flex;
+    float: right;
+}
+
+.left {
+    background-color: blanchedalmond;
+    height: 610px;
+    width: 50%;
+    float: left;
+}
+
+.left h1 {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+
+.right img {
+    width: 540px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+    padding: 16px;
+}
+
+.input[type=text],
+input[type=password] {
+    width: 90%;
+    padding: 13px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.input[type=password],
+input[type=text] {
+    width: 90%;
+    padding: 13px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.registerbtn {
+    background-color: mediumblue;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.container-signin p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.social {
+    background-color:black;
+    height: 300px;
+}
+
+.black1 {
+    height: 300px;
+    width: 70%;
+    margin: 0px 10px 0px 195px;
+    background-color:black;
+}
+
+.black1 h2 {
+    font: italic;
+    color:#f1f1f1;
+    margin: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-linkedin {
+    background:blue;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
